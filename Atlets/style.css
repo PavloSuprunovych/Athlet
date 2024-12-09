@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: black;
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    height: 1500px;
+    background: white;
+    margin: 0 auto;
+    flex-wrap:wrap;
+    gap: 40px 30px;
+    align-content: flex-start; 
+    padding: 30px 35px;
+}
+
+.athlet{
+    width: 200px;
+    height: 231px;
+    background: white;
+
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
